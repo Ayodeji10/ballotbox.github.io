@@ -1,0 +1,514 @@
+::placeholder {
+    font-size: 15px;
+    color: #008753;
+    opacity: 30%;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, a, button, span {
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(../img/obinna-okerekeocha-3cDzsJYMT1c-unsplash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* navigation  */
+nav {
+    height: 75px
+}
+
+ul li {
+    letter-spacing: 3.2px;
+    font-weight:bolder;
+    padding: 0px 10px;
+    transition-duration: 0.2s;
+    transition-timing-function:ease-in;
+}
+
+ul li:hover {
+    border-bottom: solid 3px white;
+}
+
+ul li .active {
+    border-bottom: solid 2px white;
+}
+
+ul li .active:hover {
+    border-bottom: 0px;
+}
+
+h1 {
+    font-size: 16px;
+    color: white
+}
+
+li a {
+    color: white !important
+}
+
+.nav-avatar li {
+    border-radius: 50%;
+    background-color: white;
+    width: 43px;
+    padding: 0px !important
+}
+
+.nav-avatar li a {
+    color: #008753 !important;
+}
+
+.navbar-toggler {
+    background: #008753;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+    border: solid 1px white;
+
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+/* banner  */
+.banner {
+    margin-top: 250px;
+    padding: 0px 10px
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.banner p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+.banner button, .start button{
+    color: white;
+    background-color: #008753;
+    border-radius: 10px;
+    height: 45px;
+    width: 160px;
+    border: 0px;
+    outline: none
+}
+
+.banner img {
+    height: 523px;
+    float: right
+}
+
+/* merit  */
+.merit {
+    text-align: center;
+    padding: 70px 0px;
+    background-color: #008753;
+}
+.merit h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 3.6px;
+    margin-bottom: 15px;
+}
+
+.merit h3 {
+    font-size: 16px;
+    color: white
+}
+
+.merit p {
+    color: white;
+    font-size: 11px;
+}
+
+.merit img, .voter img, .aspirant img, .values img {
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.merit .row div, .voter .row div, .aspirant .row div {
+    padding: 20px 55px
+}
+
+.strata {
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.strata h1, .voter h1, .aspirant h1, .values h1 {
+    color:#008753;
+    font-size: 60px;
+    letter-spacing: 3.6px;
+    margin-bottom: 30px ;
+}
+
+.strata img {
+    height: 150px;
+    padding-bottom: 30px;
+}
+
+.strata h3, .aspirant h3 {
+    font-size: 16px;
+    color: #008753;
+    font-weight: bold; 
+}
+
+.strata p {
+    color: #008753;
+    padding-top: 40px;
+    font-size: 24px;
+}
+
+.card{
+    border: solid 1px #707070;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.voter, .values {
+    padding: 70px 0px;
+    text-align: center;
+    background-color: #FBFBFB;
+}
+
+.voter h1, .aspirant h1, .values h1 {
+    padding-bottom: 20px;
+}
+
+.voter h3, .values h3, .start h3  {
+    font-size: 16px;
+    color: #008753
+}
+
+.voter p, .aspirant p, .invite-text p {
+    color: #008753;
+    font-size: 11px;
+}
+
+/* aspirant  */
+.aspirant {
+    background-color: white;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+/* values  */
+.values .card2 {
+    margin: 0px 25px;
+    border: solid 1px #707070;
+    background-color: white;
+    padding: 60px 0px
+}
+
+.values h3 {
+    padding-top: 35px;
+}
+
+/* start  */
+.start {
+    padding: 70px 0px
+}
+
+.box-content {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.start h1 {
+    color: #008753;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+/* invite  */
+.invite {
+    border: solid 1px #CFCFCF;
+}
+
+.invite-text {
+    text-align: right;
+    padding: 128px 40px
+}
+
+.invite-text h1 {
+    font-size: 60px;
+    color: #008753
+}
+
+.invite-text p {
+    color: #008753;
+    font-size: 18px;
+}
+
+.invite-input {
+    background-color: #58B801;
+    padding: 50px 40px
+}
+
+.invite-input p {
+    margin-bottom: 5px !important;
+    font-size: 20px;
+    color: #008753;
+}
+
+.invite-input input {
+    width: 300px;
+    margin-bottom: 20px;
+    border: solid 1px #CFCFCF;
+    outline: none;
+    padding: 9px 15px;
+}
+
+.invite-input button{
+    color: white;
+    background-color: #58B801;
+    opacity: 100%;
+    border: 0px;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+.invite-input i {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+
+/* media queries */
+@media (min-width:1400px){
+  
+}
+
+@media (min-width:1020px) and (max-width:1399px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1, .merit h1, .strata h1, .voter h1, .aspirant h1, .values h1, .start h1, .invite h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1119px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1, .merit h1, .strata h1, .voter h1, .aspirant h1, .values h1, .start h1, .invite h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1, .merit h1, .strata h1, .voter h1, .aspirant h1, .values h1, .start h1, .invite h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .merit, .strata, .voter, .aspirant, .values, .start {
+        padding: 60px 0px
+    }
+
+    .values .card2 {
+        margin: 15px 50px;
+        padding: 20px 0px;
+    }
+
+    .box-content {
+        padding: 0px 60px
+    }
+
+    .invite-input input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .invite-text {
+        text-align: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1, .merit h1, .strata h1, .voter h1, .aspirant h1, .values h1, .start h1, .invite h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .merit, .strata, .voter, .aspirant, .values, .start {
+        padding: 50px 0px
+    }
+
+    .merit .row div, .voter .row div, .aspirant .row div {
+        padding: 10px 25px;
+    }
+
+    .strata p {
+        font-size: 20px;
+    }
+
+    .values .card2 {
+        margin: 15px 50px;
+        padding: 20px 0px;
+    }
+
+    .box-content {
+        padding: 0px 60px
+    }
+
+    .invite-input input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .invite-text {
+        text-align: center;
+    }
+}
+
+@media (min-width:386px) and (max-width:575px) {
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1, .merit h1, .strata h1, .voter h1, .aspirant h1, .values h1, .start h1, .invite h1 {
+        font-size: 30px;
+    }
+
+    .merit, .strata, .voter, .aspirant, .values, .start {
+        padding: 40px 0px
+    }
+
+    .merit .row div, .voter .row div, .aspirant .row div {
+        padding: 10px 25px;
+    }
+
+    .card {
+        margin: 15px 45px
+    }
+
+    .strata p {
+        font-size: 14px;
+    }
+
+    .values .card2 {
+        margin: 15px 50px;
+        padding: 20px 0px;
+    }
+
+    .box-content {
+        padding: 15px 60px
+    }
+
+    .start button {
+        height: 35px;
+        width: 120px;
+    }
+
+    .invite {
+        border-top: solid 1px #CFCFCF;
+        border-right: none;
+        border-left: none;
+    }
+
+    .invite-input input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 4px 10px
+    }
+
+    .invite-text {
+        text-align: center;
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 385px) {
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1, .merit h1, .strata h1, .voter h1, .aspirant h1, .values h1, .start h1, .invite h1 {
+        font-size: 25px;
+    }
+
+    .merit, .strata, .voter, .aspirant, .values,.start {
+        padding: 30px 0px
+    }
+
+    .merit .row div, .voter .row div, .aspirant .row div {
+        padding: 10px 25px;
+    }
+
+    .strata p {
+        font-size: 11px;
+    }
+
+    .values .card2 {
+        margin: 15px 50px;
+        padding: 20px 0px;
+    }
+
+    .box-content {
+        padding: 15px 60px
+    }
+
+    .start button {
+        height: 35px;
+        width: 120px;
+    }
+
+    .invite {
+        border-top: solid 1px #CFCFCF;
+        border-right: none;
+        border-left: none;
+    }
+
+    .invite-input input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 4px 10px
+    }
+
+    .invite-text {
+        text-align: center;
+        padding: 20px 40px;
+    }
+}

@@ -1,0 +1,282 @@
+::placeholder {
+    font-size: 15px;
+    color: #008753;
+    opacity: 30%;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, a, button, span {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #008753
+}
+
+body {
+    height: 100vh;
+    background-image: url(img/chuks-ugwuh-G0OqiEiHP1Y-unsplash.jpg);
+     /* background-size: cover; */
+     background-repeat: no-repeat;
+     background-position: center;
+    overflow: hidden;
+}
+
+.main {
+    height: 100vh;
+    background-color: #707070;
+    opacity: 30%;
+}
+
+.container {
+    height: 100vh;
+}
+
+/* navigation  */
+nav {
+    height: 75px
+}
+
+ul li {
+    letter-spacing: 3.2px;
+    font-weight:bolder;
+    padding: 0px 10px;
+    transition-duration: 0.2s;
+    transition-timing-function:ease-in;
+}
+
+ul li:hover {
+    border-bottom: solid 3px white;
+}
+
+ul li .active {
+    border-bottom: solid 3px white;
+}
+
+ul li .active:hover {
+    border-bottom: 0px;
+}
+
+h1 {
+    font-size: 16px;
+    color: white
+}
+
+li a {
+    color: white !important
+}
+
+.navbar-toggler {
+    background: #008753;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+    border: solid 1px white;
+
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+/* banner  */
+.banner {
+    height: 500px;
+    margin-top: 190px;
+    padding: 0px 10px;
+}
+
+.banner h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: white;
+    margin-bottom: 85px;
+}
+
+.banner button {
+    color: white;
+    background-color: #008753;
+    border-radius: 10px;
+    height: 45px;
+    width: 160px;
+    border: 0px;
+    outline: none;
+}
+
+.banner img {
+    float: right;
+    width: 100%;
+}
+
+/* pop-up  */
+.pop-up {
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    box-shadow: 28px -28px 30px #00000029;
+}
+
+.pop-up h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #008753
+}
+
+.pop-up p, .pop-up span {
+    font-size: 15px;
+    margin-bottom: 5px;  
+    color: #008753 
+}
+
+h3 i {
+    float: right;
+    color: #008753
+}
+
+.pop-up input {
+    width: 100%;
+    outline: none;
+    border: solid 1px #CFCFCF;
+    padding: 9px 15px;
+    margin-bottom: 15px;
+}
+
+.pop-up button {
+    font-size: 15px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #008753;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#create p{
+    text-align: center;
+}
+
+#create a {
+    display: inline-block;
+    margin: 0px 30px;
+    border-bottom: solid 1px #008753;
+}
+
+/* media queries */
+@media (min-width:1400px){
+  
+}
+
+@media (min-width:1020px) and (max-width:1399px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1119px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .pop-up {
+        width: 370px;
+    }
+
+    .pop-up input {
+        padding: 5px 15px
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .pop-up {
+        width: 370px;
+    }
+
+    .pop-up input {
+        padding: 5px 15px
+    }
+}
+
+@media (min-width:386px) and (max-width:575px) {
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .pop-up {
+        width: 350px;
+    }
+
+    .pop-up input {
+        padding: 5px 15px
+    }
+}
+
+@media (max-width: 385px) {
+    .banner {
+        margin-top: 120px;
+    }
+    
+    .banner h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .pop-up {
+        width: 350px;
+    }
+
+    .pop-up input {
+        padding: 5px 15px
+    }
+}

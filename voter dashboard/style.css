@@ -1,0 +1,239 @@
+a, h1, h2, h3, h4, h5, h6, p, a, button, span {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #008753
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #008753;
+    opacity: 30%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.container-fluid {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+/* navigation  */
+nav {
+    height: 75px;
+    background-color: #008753;
+}
+
+ul li {
+    letter-spacing: 3.2px;
+    font-weight:bolder;
+    padding: 0px 10px;
+    transition-duration: 0.2s;
+    transition-timing-function:ease-in;
+}
+
+h1 {
+    font-size: 16px;
+    color: white
+}
+
+li a {
+    color: white !important
+}
+
+ul li:hover {
+    border-bottom: solid 3px white;
+}
+
+ul li .active {
+    border-bottom: solid 2px white;
+}
+
+ul li .active:hover {
+    border-bottom: 0px;
+}
+
+.navbar-toggler {
+    background: #008753;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+    border: solid 1px white;
+
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+.nav-avatar li {
+    border-radius: 50%;
+    background-color: white;
+    width: 43px;
+    padding: 0px !important
+}
+
+.nav-avatar li a {
+    color: #008753 !important;
+}
+
+/* panel  */
+.panel span {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: solid 1px #008753;
+    border-radius: 50%;
+    padding-top: 14px;
+    margin: 30px 0px;
+}
+
+.avatar h3 {
+    /* width: 80%; */
+    display: inline-block;
+    font-size: 20px;
+}
+
+.edit button {
+    float: right;
+    height: 30px;
+    margin-top: 38px;
+    color: white;
+    background-color: #008753;
+    border-radius: 5px;
+    border: 0px;
+    width: 130px
+}
+
+.edit i {
+    padding-left: 10px
+}
+
+/* info  */
+.info {
+    width: 700px;
+    margin: 0px auto
+}
+.info span {
+    float: right;
+    text-align: right;
+}
+
+.info button {
+    height: 30px;
+    color: white;
+    background-color: #008753;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.social-media img {
+    height: 25px
+}
+
+.social-media span {
+    text-decoration: underline;
+}
+
+.create-aspirant {
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* media queries */
+@media (min-width:1400px){
+  
+}
+
+@media (min-width:1020px) and (max-width:1399px){
+
+}
+
+@media (min-width:992px) and (max-width:1119px){
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .save button, .add button {
+        margin : 10px 0px;
+        width: 125px
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .info {
+        width: 100%
+    }
+
+    .save button, .add button {
+        margin : 10px 0px;
+        width: 125px
+    }
+}
+
+@media (min-width:386px) and (max-width:575px) {
+    .info {
+        width: 100%
+    }
+
+    .save button, .add button {
+        margin : 10px 0px;
+        width: 125px
+    }
+}
+
+@media (max-width: 385px) {
+    .info {
+        width: 100%
+    }
+
+    .info p {
+        margin-bottom: 3px !important;
+        font-size: 12px;
+    }
+
+    .save button, .add button {
+        margin : 10px 0px;
+        width: 125px
+    }
+
+    .add select {
+        width: 100%
+    }
+
+    .panel span {
+        height: 40px;
+        width: 40px;
+        padding-top: 9px;
+    }
+
+    .avatar h3 {
+        font-size: 15px;
+    }
+}
